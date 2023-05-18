@@ -652,8 +652,8 @@ const nftabi = [
     type: "function",
   },
 ];
-const nftContractAddress = "0xB091f2FAC84685DFd9242C0112dE269A1857bf04";
-const minterContractAddress = "0xcDF8ae5b85F99d5a3Ff5f16eC98C20510d296B2B";
+const nftContractAddress = "0x818285BB6BfbA7AB3cA8c2540Bdb9617Fa326878";
+const minterContractAddress = "0x09171E61493D6fEdE85f98AedbE4B2eaBAFD8551";
 
 function Home() {
   const [count, setCount] = useState(0);
