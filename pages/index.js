@@ -690,7 +690,8 @@ function Home() {
     async function fetchData() {
       const data = new _web3.eth.Contract(abi, minterContractAddress);
       const totalmint = await data.methods.claimIndex().call();
-      setMinted(totalmint);
+      console.log(totalmint);
+      setMinted(Number(totalmint) + 4424);
     }
     fetchData();
   }, []);
