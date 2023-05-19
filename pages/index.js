@@ -727,10 +727,13 @@ function Home() {
       setisDisable(true);
       const data = new _web3.eth.Contract(abi, minterContractAddress);
 
-      await data.methods.trade(count).send({
-        from: accountAddress,
-        value: _web3.utils.toWei((count * price).toString()),
-      });
+      await data.methods
+        .trade(count)
+        .send({
+          from: accountAddress,
+          value: _web3.utils.toWei((count * price).toString()),
+        })
+        .estimateGas();
       setisDisable(false);
       alert("Tx Success");
     } catch (e) {
