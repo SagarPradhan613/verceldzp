@@ -670,7 +670,7 @@ function Home() {
   };
   let _web3;
   if (typeof window !== "undefined") {
-    _web3 = new Web3(window.ethereum);
+    _web3 = new Web3(getRpcUrl());
   } else {
     _web3 = new Web3(new Web3.providers.HttpProvider(getRpcUrl()));
   }
@@ -689,8 +689,6 @@ function Home() {
   useEffect(() => {
     async function fetchData() {
       const data = new _web3.eth.Contract(abi, minterContractAddress);
-      console.log(data, "data");
-
       const totalmint = await data.methods.claimIndex().call();
       setMinted(totalmint);
     }
@@ -724,6 +722,7 @@ function Home() {
   }, []);
 
   const mint = async () => {
+    const _web3 = new Web3(window.ethereum);
     try {
       setisDisable(true);
       const data = new _web3.eth.Contract(abi, minterContractAddress);
@@ -733,7 +732,6 @@ function Home() {
         value: _web3.utils.toWei((count * price).toString()),
       });
       setisDisable(false);
-
       alert("Tx Success");
     } catch (e) {
       console.log(e, " error ");
