@@ -770,7 +770,7 @@ function Home() {
           <img src="/images/headerlogo.png" alt="logo" className="" />
 
           <h1 className="text-[35px] font-[700] mt-10 text-center">
-            ALL ACCE$$ Pass: for the true fans{" "}
+            ALL EXCE$$ Pass: for the true fans{" "}
           </h1>
           <p className="md:w-[50%] mb-5 px-5">
             NFTs are still in the early stages, but their impact on artists and
@@ -785,7 +785,7 @@ function Home() {
           >
             More Details
           </a>
-          <h2 className="mb-3"> ALL ACCE$$ Pass</h2>
+          <h2 className="mb-3"> ALL EXCE$$ Pass</h2>
           <div className="box-modal md:px-12 px-5 text-center pt-10 pb-5">
             <div className="flex justify-between">
               <p>
