@@ -678,7 +678,7 @@ function Home() {
     async function fetchData() {
       const data = new _web3.eth.Contract(nftabi, nftContractAddress);
       // console.log(data, "data");
-      const tsupply = await data.methods.totalSupply().call();
+      const tsupply = await data.methods.MAX_SUPPLY().call();
       // console.log(tsupply, "synbol");
       setSpply(tsupply);
     }
@@ -768,7 +768,7 @@ function Home() {
           <img src="/images/headerlogo.png" alt="logo" className="" />
 
           <h1 className="text-[35px] font-[700] mt-10 text-center">
-            All Exce$$ Pass: for the true fans{" "}
+            ALL ACCE$$ Pass: for the true fans{" "}
           </h1>
           <p className="md:w-[50%] mb-5 px-5">
             NFTs are still in the early stages, but their impact on artists and
@@ -783,7 +783,7 @@ function Home() {
           >
             More Details
           </a>
-          <h2 className="mb-3">All Excess pass</h2>
+          <h2 className="mb-3"> ALL ACCE$$ Pass</h2>
           <div className="box-modal md:px-12 px-5 text-center pt-10 pb-5">
             <div className="flex justify-between">
               <p>
@@ -803,7 +803,7 @@ function Home() {
             </div>
             <h2 className="mt-5">NFT Address:</h2>
             <a
-              href="https://polygonscan.com/address/0xf83b46d5726fd0b133d7c8fab8b6f81c91dcc71a"
+              href="https://polygonscan.com/address/0x818285bb6bfba7ab3ca8c2540bdb9617fa326878"
               target="blank"
               className="md:text-[18px] text-[12px] pt-2 transition-all hover:text-[#3b280cca]"
             >
