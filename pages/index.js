@@ -1145,12 +1145,12 @@ function Home() {
             </svg>
 
           </a>
-          <a href="/" className="hover:scale-125 transition-all duration-500 ease-in-out" target="_blank">
+          {/* <a href="/" className="hover:scale-125 transition-all duration-500 ease-in-out" target="_blank">
             <svg width="35" height="29" viewBox="0 0 35 29" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M29.241 3.16503C27.0034 2.08296 24.6362 1.31391 22.202 0.878174C21.8983 1.44416 21.5452 2.20762 21.2995 2.8124C18.7139 2.4051 16.0835 2.4051 13.4979 2.8124C13.2268 2.15153 12.9221 1.50589 12.5852 0.878174C10.1489 1.31462 7.77993 2.08549 5.54113 3.17032C1.08674 10.1279 -0.121115 16.9126 0.482812 23.6004C3.08304 25.6295 6.00448 27.1765 9.11692 28.1724C9.81623 27.1778 10.4348 26.1251 10.9662 25.0251C9.95538 24.6269 8.98082 24.1366 8.05408 23.5599C8.29804 23.373 8.53688 23.1773 8.76719 22.9763C14.3817 25.6898 20.4806 25.6898 26.0286 22.9763C26.2623 23.1773 26.5011 23.373 26.7417 23.5599C25.8187 24.1347 24.8412 24.6284 23.8244 25.0268C24.355 26.1273 24.9736 27.1801 25.6737 28.1741C28.7886 27.1789 31.7121 25.6306 34.313 23.5987C35.021 15.8477 33.1034 9.12462 29.241 3.16503ZM11.7305 19.4869C10.045 19.4869 8.66312 17.8612 8.66312 15.8812C8.66312 13.9011 10.016 12.2719 11.7305 12.2719C13.4451 12.2719 14.8269 13.8976 14.7979 15.8812C14.7996 17.8612 13.4451 19.4869 11.7305 19.4869ZM23.0652 19.4869C21.3797 19.4869 19.9978 17.8612 19.9978 15.8812C19.9978 13.9011 21.3507 12.2719 23.0652 12.2719C24.7798 12.2719 26.1616 13.8976 26.1326 15.8812C26.1326 17.8612 24.7798 19.4869 23.0652 19.4869Z" fill="#DAE7FF" />
             </svg>
 
-          </a>
+          </a> */}
           <a href="/" className="hover:scale-125 transition-all duration-500 ease-in-out" target="_blank">
             {/* <svg xmlns="http://www.w3.org/2000/svg" width="31" height="32" viewBox="0 0 31 32" fill="none">
               <g clip-path="url(#clip0_25_10626)">
@@ -1171,7 +1171,7 @@ function Home() {
         </div>
 
 
-        <div className="w-full  flex md:hidden fixed bottom-0 py-4 px-4 justify-around gap-6 bg-[#1e2b45]">
+        {/* <div className="w-full  flex md:hidden fixed bottom-0 py-4 px-4 justify-around gap-6 bg-[#1e2b45]">
           <a href="/" className="head-links cursor-pointer">TRADE</a>
           <a href="/" className="head-links cursor-pointer ">SWAP</a>
           <div className="spcl-container">
@@ -1181,7 +1181,7 @@ function Home() {
               <circle cx="28.5" cy="2.5" r="2.5" fill="#FF720D" />
             </svg>
           </div>
-        </div>
+        </div> */}
 
         {/* <section>
         <div className=" flex flex-col justify-center items-center  ">
